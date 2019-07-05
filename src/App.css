@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -30,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  background-color: black;
+}
+
+.bg-image { 
+  object-fit: cover;
+  object-position: 100% 0;
+
+  height: 85vh;
+  opacity: 0.5;
+}
+
+.text-image {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  width: 500px;
+  text-align: left;
+  margin-left: 10%;
+  line-height: 130px;
+  font-family: 'Oswald', sans-serif;
 }
