@@ -14,6 +14,7 @@ class App extends React.Component {
     const timestamp = Number(new Date())
     const hash = md5.create()
     hash.update(timestamp + PRIVATE_KEY + PUBLIC_KEY)
+    //var url = 'https://gateway.marvel.com:443/v1/public/characters?series=2063&orderBy=name&limit=100&apikey=dadef783906b16bb2e28933380b8ee11'
     var url = `https://gateway.marvel.com/v1/public/characters?ts=${timestamp}&orderBy=name&limit=1000&apikey=${PUBLIC_KEY}&hash=${hash.hex()}`
     console.log(url)
     axios.get(url)
