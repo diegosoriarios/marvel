@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './components/Header'
+import Header from './components/Header/'
 import background from './assets/img/banner.jpg'
 import './App.css';
-import HeroesList from './components/HeroesList';
-import CardDiv from './components/CardDiv'
-import Footer from './components/Footer';
-import Newsletter from './components/Newsletter';
-import Slider from './components/Slider';
+import HeroesList from './components/HeroesList/';
+import CardDiv from './components/CardDiv/'
+import Footer from './components/Footer/';
+import Newsletter from './components/Newsletter/';
+import Slider from './components/Slider/';
 
 class App extends React.Component {
   render() {

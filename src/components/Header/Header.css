@@ -1,0 +1,11 @@
+.header {
+    background-color: black;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 2fr 6fr;
+}
+
+.navbar li {
+  margin: 0 2% 0 2%;
+}

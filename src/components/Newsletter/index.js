@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Newsletter.css'
 
 export default class Newsletter extends Component {
     state = {
@@ -14,7 +15,7 @@ export default class Newsletter extends Component {
                 <form className="news-form">
                     <h4>Cadastre-se para receber nossas noticias em primeira mão<span className="excl">!</span></h4>
                     <label>seu melhor e-mail</label><br />
-                    <input className="input-email" type="email" value={this.state.email} name="email" placeholder="Informe seu melhor e-mail" />
+                    <input className="input-email" type="email" value={this.state.email} name="email" placeholder="Informe seu melhor e-mail" onChange={e => this.setState({email: e.target.value})} />
                     <button type="submit" className="btn-enviar">Enviar</button>
                 </form>
             </div>

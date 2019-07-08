@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Logo from '../assets/icons/logo-marvel.svg'
-import '../App.css'
+import Logo from '../../assets/icons/logo-marvel.svg'
+import './Header.css'
 
 class Header extends Component {
     render() {

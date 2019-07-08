@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import Facebook from '../assets/icons/facebook.svg'
-import Instagram from '../assets/icons/instagram.svg'
-import Spotify from '../assets/icons/spotify.svg'
-import Youtube from '../assets/icons/youtube.svg'
+import Facebook from '../../assets/icons/facebook.svg'
+import Instagram from '../../assets/icons/instagram.svg'
+import Spotify from '../../assets/icons/spotify.svg'
+import Youtube from '../../assets/icons/youtube.svg'
+import './Footer.css'
 
 export default class Footer extends Component {
     render() {

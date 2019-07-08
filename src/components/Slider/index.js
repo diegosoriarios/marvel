@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ItemsCarousel from 'react-items-carousel/';
-import '../App.css'
+import './Slider.css'
 import axios from 'axios'
 import md5 from 'js-md5'
 

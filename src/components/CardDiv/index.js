@@ -1,5 +1,6 @@
 import React from 'react'
-import Cards from '../assets/img/cards-fan-desktop.png'
+import './CardDiv.css'
+import Cards from '../../assets/img/cards-fan-desktop.png'
 
 const CardDiv = () => {
     return (
