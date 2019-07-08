@@ -15,7 +15,7 @@ class Header extends Component {
                         </button>
                     </div>
 
-                    <div className="text-right float-right">
+                    <div className="text-right float-right navbar-right">
                         <ul className="nav justify-content-end text-right text-light font-weight-bold">
                             <li className="nav-item text-uppercase">
                                 <span className="nav-link" href="#">Filmes</span>
