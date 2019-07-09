@@ -46,3 +46,14 @@ li {
   line-height: 130px;
   font-family: 'Oswald', sans-serif;
 }
+
+@media (max-width: 600px) 
+{
+  .bg-image {
+    width: 100%;
+  }
+
+  .text-image {
+    display: none;
+  }
+}

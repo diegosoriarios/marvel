@@ -66,3 +66,80 @@
     color: var(--white);
     padding: 2%;
   }
+
+
+/**
+*
+*/
+
+@media (max-width: 600px) {
+  .newsletter .news-div {
+    display: inline-block;
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: bold;
+    line-height: 2em;
+    font-size: .9em;
+    width: 80%;
+    height: 20vh;
+    margin-top: -15%;
+    margin-bottom: 20%;
+    text-align: justify;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 17%;
+  }
+
+  .newsletter .news-form {
+    padding: 5% 0 0 10%;
+    text-align: left;
+  }
+  
+  .newsletter .news-form h4{
+    color: var(--white);
+    margin: 0;
+    width: 100%;
+    font-size: .8em;
+  }
+  
+  .newsletter .excl {
+    color: var(--red);
+  }
+  
+  .newsletter .news-form label {
+    margin-top: 5%;
+    color: var(--white);
+    font-size: .6em;
+  }
+  
+  .newsletter .news-form .input-email {
+    border: 1px solid var(--text-light-grey);
+    width: 60%;
+    font-size: .7em;
+    height: 25px;
+    padding: 2%;
+  }
+  
+  .newsletter .news-form .btn-enviar {
+    background-color: var(--red);
+    border: 1px solid var(--red);
+    color: var(--white);
+    font-size: .7em;
+    height: 25px;
+    padding: 2%;
+  }
+
+  .newsletter .news-form .input-email::placeholder { 
+    color: var(--text-grey);
+    opacity: 1; 
+    font-size: .7em;
+  }
+  
+  .newsletter .news-form .input-email:-ms-input-placeholder { 
+    color: var(--text-grey);
+  }
+  
+  .newsletter .news-form .input-email::-ms-input-placeholder { 
+    color: var(--text-grey);
+  }
+}
