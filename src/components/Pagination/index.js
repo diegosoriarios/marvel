@@ -7,8 +7,7 @@ class Pagination extends Component {
     const page = this.props.currentPage
     let show = []
     if(page > 2) {
-        show.push(1)
-        show.push('...')
+        show.push(1, '...')
         if((page + 5) >= total.length) {
             console.log(page)
             for(let i = total.length - 6; i < total.length + 1; i++) {
@@ -18,15 +17,13 @@ class Pagination extends Component {
             for(let i = page - 1; i < page + 4; i++) {
                 show.push(i)
             }
-            show.push('...')
-            show.push(total.length)
+            show.push('...', total.length)
         }
     } else if(page === 1 || page === 2) { 
         for(let i = 1; i < 6; i++) {
             show.push(i)
         }
-        show.push('...')
-        show.push(total.length)
+        show.push('...', total.length)
     }
     return show.map((_, i) => {
         const currentClass = page === (_) ?'selected' : ''

@@ -1,14 +1,21 @@
 .gridHeroes {
     width: 80%;
     margin: 0 auto;
-    padding: 5% 0 5% 0;
+    padding: 0 0 5% 0;
     display: grid;
     grid-template-columns: 6fr 6fr 6fr 6fr 6fr 6fr;
 }
 
-.heroesContainer {
+.heroes-container {
     background-color: white;
     width: 100%;
+}
+
+.heroes-container h2 {
+    font-size: 28px;
+    text-align: left;
+    padding: 10% 0 2% 11%;
+    color: var(--text-black);
 }
 
 .heroItem {

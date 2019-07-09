@@ -26,7 +26,6 @@ class HeroesList extends Component {
         const hash = md5.create()
         hash.update(timestamp + PRIVATE_KEY + PUBLIC_KEY)
         var url = `https://gateway.marvel.com:443/v1/public/characters?orderBy=-modified&limit=30&offset=${(this.state.page - 1) *30}&apikey=dadef783906b16bb2e28933380b8ee11&hash=${hash.hex()}&ts=${timestamp}`
-        //var url = `https://gateway.marvel.com/v1/public/characters?ts=${timestamp}&orderBy=name&limit=1000&apikey=${PUBLIC_KEY}&hash=${hash.hex()}`
         const request = await axios.get(url)
         this.setState({
             heroes: request.data.data.results,
@@ -60,7 +59,8 @@ class HeroesList extends Component {
     render() {
         console.log(this.state)
         return(
-            <div className="heroesContainer">
+            <div className="heroes-container">
+                <h2 className="text-uppercase">Lista de personagens da marvel</h2>
                 <ul className="text-light, gridHeroes">
                     {this.listHeroes()}
                 </ul>
