@@ -1,0 +1,21 @@
+.card-image { 
+    object-fit: cover;
+    object-position: 50% 20%;
+  
+    height: 75vh;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.text-image {
+    color: white;
+    margin-top: -40%;
+    width: 50%;
+    text-align: left;
+    padding-left: 10%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    z-index: 1000;
+    position: relative;
+}

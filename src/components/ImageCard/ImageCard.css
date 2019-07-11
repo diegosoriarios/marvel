@@ -1,110 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
+/* Computer */
+@import url('./styles/imagecard-xs.css') only screen and (min-width: 1382px);
 
-@media only screen and (min-width: 1382px) { 
-    .image-card {
-        height: 90vh;
-    }
-    
-    .text-image {
-        color: var(--white);
-        font-size: 6em;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        width: 500px;
-        text-align: left;
-        margin-left: 10%;
-        line-height: 1.2em;
-        font-family: 'Oswald', sans-serif;
-    }
-    
-    .card-image { 
-        object-fit: cover;
-        object-position: 80% 20%;
-      
-        height: 75vh;
-        width: 100%;
-        opacity: 0.5;
-    }
-}
+/* Tablets */
+@import url('./styles/imagecard-md.css') only screen and (min-width: 768px) and (max-width: 991px);
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .text-image {
-        color: var(--white);
-        font-size: 6em;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        width: 500px;
-        text-align: left;
-        margin-left: 10%;
-        line-height: 1.2em;
-        font-family: 'Oswald', sans-serif;
-        margin-top: -30%;
-    }
-}
-
-@media (max-width: 600px) {
-    .card-image { 
-        object-fit: cover;
-        object-position: 50% 20%;
-      
-        height: 75vh;
-        width: 100%;
-        opacity: 0.5;
-        z-index: 1;
-    }
-
-    .text-image {
-        color: white;
-        margin-top: -40%;
-        width: 50%;
-        text-align: left;
-        padding-left: 10%;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        z-index: 1000;
-        position: relative;
-    }
-} 
-
-@media only screen and (min-width: 992px) and (max-width: 1024px){
-    .text-image {
-        color: var(--white);
-        font-size: 6em;
-        font-weight: bold;
-        position: absolute;
-        top: 50%;
-        width: 500px;
-        text-align: left;
-        margin-left: 10%;
-        line-height: 1.2em;
-        font-family: 'Oswald', sans-serif;
-        margin-top: -30%;
-    }
-}
-
-@media (max-width: 600px) {
-    .card-image { 
-        object-fit: cover;
-        object-position: 50% 20%;
-      
-        height: 75vh;
-        width: 100%;
-        opacity: 0.5;
-        z-index: 1;
-    }
-
-    .text-image {
-        color: white;
-        margin-top: -40%;
-        width: 50%;
-        text-align: left;
-        padding-left: 10%;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        z-index: 1000;
-        position: relative;
-    }
-}
+/* iPads */
+@import url('./styles/imagecard-ls.css') only screen and (min-width: 992px) and (max-width: 1024px);
+  
+/* Smartphones */
+@import url('./styles/imagecard-sm.css') (max-width: 600px);

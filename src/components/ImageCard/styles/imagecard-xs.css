@@ -1,0 +1,25 @@
+.image-card {
+    height: 90vh;
+}
+
+.text-image {
+    color: var(--white);
+    font-size: 6em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    width: 500px;
+    text-align: left;
+    margin-left: 10%;
+    line-height: 1.2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-image { 
+    object-fit: cover;
+    object-position: 80% 20%;
+  
+    height: 75vh;
+    width: 100%;
+    opacity: 0.5;
+}
