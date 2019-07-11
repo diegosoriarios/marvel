@@ -1,0 +1,27 @@
+@media only screen and (min-width: 1382px) {
+    .pagination-container {
+        background-color: var(--white);
+        height: 100%;
+        text-align: center;
+    }
+      
+    .pagination {
+        margin: 0 auto;
+    }
+      
+    .pagination .custom-link {
+        background: var(--white);
+        border: none;
+        color: var(--text-grey);
+        outline: none;
+    }
+      
+    .pagination .selected {
+        background: var(--red);
+        border: none;
+        color: var(--white);
+        outline: none;
+    }
+}
+
+@media (max-width: 600px) { }
