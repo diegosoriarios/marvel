@@ -10,6 +10,27 @@
     margin: 0 !important;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-default {
+        background-color: var(--dark);
+        border-color: var(--dark);
+        position: relative;
+    }
+
+    .navbar-default ul {
+        position: relative;
+    }
+
+    .nav-item {
+        color: var(--light);
+    }
+
+    .navbar-default img{
+        width: 50%;
+        float: left;
+    }
+} 
+
 
 @media (max-width: 600px) {
     .navbar-default {
