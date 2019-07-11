@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ItemsCarousel from 'react-items-carousel/';
-import './Slider.css'
+import './Carousel.css'
 import axios from 'axios'
 import md5 from 'js-md5'
 
@@ -19,7 +19,7 @@ const heroes = [
 ]
 
 const noOfItems = 12;
-const noOfCards = 4;
+const noOfCards = 3;
 const autoPlayDelay = 2000;
 const chevronWidth = 40;
 
@@ -38,7 +38,7 @@ const SlideItem = styled.div`
 `;
 
 
-export default class Slider extends React.Component {
+export default class Carousel extends React.Component {
   state = {
     activeItemIndex: 0,
     heroes: []

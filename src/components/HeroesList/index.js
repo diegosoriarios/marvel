@@ -1,7 +1,7 @@
 import React, { Component }  from 'react'
 import axios from 'axios'
 import md5 from 'js-md5'
-import Pagination from '../Pagination/';
+//import Pagination from '../Pagination/';
 import './HeroesList.css'
 
 const PUBLIC_KEY = 'dadef783906b16bb2e28933380b8ee11'
@@ -64,7 +64,7 @@ class HeroesList extends Component {
                 <ul className="text-light, gridHeroes">
                     {this.listHeroes()}
                 </ul>
-                <Pagination currentPage={this.state.page} total={this.state.total} changePage={this.changePage} />
+                {/*<Pagination currentPage={this.state.page} total={this.state.total} changePage={this.changePage} />*/}
             </div>
         );
     }

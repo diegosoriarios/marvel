@@ -1,3 +1,7 @@
+li {
+    list-style-type: none;
+}
+
 .gridHeroes {
     width: 80%;
     margin: 0 auto;

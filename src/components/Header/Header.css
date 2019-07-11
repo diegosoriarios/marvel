@@ -1,11 +1,33 @@
-.header {
-    background-color: black;
-}
-.navbar {
-  display: grid;
-  grid-template-columns: 2fr 6fr;
+:root {
+    --dark: #000;
+    --light: #fff;
 }
 
-.navbar li {
-  margin: 0 2% 0 2%;
+.navbar-default ul {
+    position: absolute;
+    right: 10px;
+    color: var(--white);
+    margin: 0 !important;
+}
+
+
+@media (max-width: 600px) {
+    .navbar-default {
+        background-color: var(--dark);
+        border-color: var(--dark);
+        position: relative;
+    }
+
+    .navbar-default ul {
+        position: relative;
+    }
+
+    .nav-item {
+        color: var(--light);
+    }
+
+    .navbar-default img{
+        width: 50%;
+        float: left;
+    }
 }
