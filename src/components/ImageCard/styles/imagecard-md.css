@@ -11,3 +11,7 @@
     font-family: 'Oswald', sans-serif;
     margin-top: -30%;
 }
+
+.card-image { 
+    opacity: 0.5;
+}

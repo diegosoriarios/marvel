@@ -4,10 +4,7 @@
 }
 
 .navbar-default ul {
-    position: absolute;
-    right: 10px;
     color: var(--white);
-    margin: 0 !important;
 }
 
 /* Tablets */

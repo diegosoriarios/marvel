@@ -57,7 +57,6 @@ class HeroesList extends Component {
     }
 
     render() {
-        console.log(this.state)
         return(
             <div className="heroes-container">
                 <h2 className="text-uppercase">Lista de personagens da marvel</h2>
